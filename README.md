@@ -1,3 +1,3 @@
 # nginx
 
-Custom nginx container for Notifiarr.com.
+Custom nginx container to manage Notifiarr.com.
