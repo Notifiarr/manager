@@ -3,7 +3,7 @@ FROM ghcr.io/linuxserver/nginx:latest@sha256:e7f7b9dc38312e6221159411d8767dfcf36
 
 # Install custom packages.
 RUN apk add --update nodejs npm gzip \
-    && npm install -g terser
+    && npm install -g terser \
     && apk add openssh-client-default
 
 LABEL org.opencontainers.image.source = "https://github.com/Notifiarr/nginx"
